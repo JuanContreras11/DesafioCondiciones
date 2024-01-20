@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#contenedor-principal {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#stickers{
+    display: flex;
+    justify-content: center;
+}
+
+.sticker {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.sticker img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10%;
+    
+   
+}
+
+.sticker p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.selected {
+    border: 2px solid red;
+}

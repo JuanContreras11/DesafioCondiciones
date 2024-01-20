@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#contenedor-principal {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#Imagen{
+    display: flex;
+    justify-content: center;
+}
+
+.sticker {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.selected {
+    border: 2px solid red;
+}
